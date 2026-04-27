@@ -1,0 +1,465 @@
+{
+  "version": "2.11",
+  "name": "Цагаан Тана - Уламжлалт Анагаах Ухааны Эмнэлэг",
+  "description": "Modern, sleek oriental medical hospital website with booking functionality",
+  "children": [
+    {
+      "type": "frame",
+      "id": "hero-section",
+      "name": "Hero Section",
+      "width": 1440,
+      "height": 800,
+      "fill": "#0F172A",
+      "layout": "none",
+      "children": [
+        {
+          "type": "image",
+          "id": "hero-bg",
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 800,
+          "src": "hero-acupuncture.jpg",
+          "opacity": 0.4
+        },
+        {
+          "type": "text",
+          "id": "hero-title",
+          "x": 100,
+          "y": 250,
+          "width": 600,
+          "height": 80,
+          "text": "Цагаан Тана",
+          "fontSize": 72,
+          "fontWeight": "bold",
+          "fill": "#FFFFFF",
+          "fontFamily": "Inter"
+        },
+        {
+          "type": "text",
+          "id": "hero-subtitle",
+          "x": 100,
+          "y": 340,
+          "width": 500,
+          "height": 40,
+          "text": "Уламжлалт Анагаах Ухааны Эмнэлэг",
+          "fontSize": 28,
+          "fill": "#CBD5E1",
+          "fontFamily": "Inter"
+        },
+        {
+          "type": "text",
+          "id": "hero-desc",
+          "x": 100,
+          "y": 400,
+          "width": 500,
+          "height": 60,
+          "text": "Бариа засал · Зүү тавих · Массаж · Уламжлалт эмчилгээ",
+          "fontSize": 18,
+          "fill": "#94A3B8",
+          "fontFamily": "Inter"
+        },
+        {
+          "type": "button",
+          "id": "hero-cta",
+          "x": 100,
+          "y": 480,
+          "width": 200,
+          "height": 56,
+          "text": "Цаг авах",
+          "fontSize": 16,
+          "fontWeight": "600",
+          "fill": "#10B981",
+          "color": "#FFFFFF",
+          "borderRadius": 8
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "services-section",
+      "name": "Services Section",
+      "width": 1440,
+      "height": 900,
+      "fill": "#FFFFFF",
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "services-title",
+          "x": 100,
+          "y": 80,
+          "width": 400,
+          "height": 50,
+          "text": "Манай үйлчилгээ",
+          "fontSize": 42,
+          "fontWeight": "bold",
+          "fill": "#0F172A",
+          "fontFamily": "Inter"
+        },
+        {
+          "type": "text",
+          "id": "services-desc",
+          "x": 100,
+          "y": 140,
+          "width": 600,
+          "height": 30,
+          "text": "Мэргэжлийн эмч нарын хяналтан доор хийгддэг эмчилгээ, үйлчилгээ",
+          "fontSize": 18,
+          "fill": "#64748B",
+          "fontFamily": "Inter"
+        },
+        {
+          "type": "card",
+          "id": "service-1",
+          "x": 100,
+          "y": 220,
+          "width": 380,
+          "height": 500,
+          "fill": "#FFFFFF",
+          "borderColor": "#E2E8F0",
+          "borderRadius": 16,
+          "shadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1)",
+          "children": [
+            {
+              "type": "image",
+              "id": "service-img-1",
+              "x": 0,
+              "y": 0,
+              "width": 380,
+              "height": 250,
+              "src": "acupuncture.jpg",
+              "borderRadius": "16px 16px 0 0"
+            },
+            {
+              "type": "text",
+              "id": "service-title-1",
+              "x": 24,
+              "y": 280,
+              "width": 332,
+              "height": 32,
+              "text": "Зүү тавих",
+              "fontSize": 24,
+              "fontWeight": "bold",
+              "fill": "#0F172A"
+            },
+            {
+              "type": "text",
+              "id": "service-price-1",
+              "x": 24,
+              "y": 320,
+              "width": 332,
+              "height": 24,
+              "text": "60,000₮ / цаг",
+              "fontSize": 18,
+              "fontWeight": "600",
+              "fill": "#10B981"
+            },
+            {
+              "type": "text",
+              "id": "service-desc-1",
+              "x": 24,
+              "y": 360,
+              "width": 332,
+              "height": 80,
+              "text": "Уламжлалт зүү тавих эмчилгээ. Өвдөлт намдаах, сэргээн засах үйлчилгээтэй.",
+              "fontSize": 14,
+              "fill": "#64748B"
+            },
+            {
+              "type": "button",
+              "id": "service-book-1",
+              "x": 24,
+              "y": 440,
+              "width": 332,
+              "height": 48,
+              "text": "Цаг авах",
+              "fill": "#10B981",
+              "color": "#FFFFFF",
+              "borderRadius": 8
+            }
+          ]
+        },
+        {
+          "type": "card",
+          "id": "service-2",
+          "x": 530,
+          "y": 220,
+          "width": 380,
+          "height": 500,
+          "fill": "#FFFFFF",
+          "borderColor": "#E2E8F0",
+          "borderRadius": 16,
+          "shadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1)",
+          "children": [
+            {
+              "type": "image",
+              "id": "service-img-2",
+              "x": 0,
+              "y": 0,
+              "width": 380,
+              "height": 250,
+              "src": "massage.jpg",
+              "borderRadius": "16px 16px 0 0"
+            },
+            {
+              "type": "text",
+              "id": "service-title-2",
+              "x": 24,
+              "y": 280,
+              "width": 332,
+              "height": 32,
+              "text": "Массаж",
+              "fontSize": 24,
+              "fontWeight": "bold",
+              "fill": "#0F172A"
+            },
+            {
+              "type": "text",
+              "id": "service-price-2",
+              "x": 24,
+              "y": 320,
+              "width": 332,
+              "height": 24,
+              "text": "45,000₮ / цаг",
+              "fontSize": 18,
+              "fontWeight": "600",
+              "fill": "#10B981"
+            },
+            {
+              "type": "text",
+              "id": "service-desc-2",
+              "x": 24,
+              "y": 360,
+              "width": 332,
+              "height": 80,
+              "text": "Мэргэжлийн массажистын үйлчилгээ. Тайвшруулах, сэргээх массаж.",
+              "fontSize": 14,
+              "fill": "#64748B"
+            },
+            {
+              "type": "button",
+              "id": "service-book-2",
+              "x": 24,
+              "y": 440,
+              "width": 332,
+              "height": 48,
+              "text": "Цаг авах",
+              "fill": "#10B981",
+              "color": "#FFFFFF",
+              "borderRadius": 8
+            }
+          ]
+        },
+        {
+          "type": "card",
+          "id": "service-3",
+          "x": 960,
+          "y": 220,
+          "width": 380,
+          "height": 500,
+          "fill": "#FFFFFF",
+          "borderColor": "#E2E8F0",
+          "borderRadius": 16,
+          "shadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1)",
+          "children": [
+            {
+              "type": "image",
+              "id": "service-img-3",
+              "x": 0,
+              "y": 0,
+              "width": 380,
+              "height": 250,
+              "src": "baria.jpg",
+              "borderRadius": "16px 16px 0 0"
+            },
+            {
+              "type": "text",
+              "id": "service-title-3",
+              "x": 24,
+              "y": 280,
+              "width": 332,
+              "height": 32,
+              "text": "Бариа засал",
+              "fontSize": 24,
+              "fontWeight": "bold",
+              "fill": "#0F172A"
+            },
+            {
+              "type": "text",
+              "id": "service-price-3",
+              "x": 24,
+              "y": 320,
+              "width": 332,
+              "height": 24,
+              "text": "50,000₮ / цаг",
+              "fontSize": 18,
+              "fontWeight": "600",
+              "fill": "#10B981"
+            },
+            {
+              "type": "text",
+              "id": "service-desc-3",
+              "x": 24,
+              "y": 360,
+              "width": 332,
+              "height": 80,
+              "text": "Уламжлалт бариа засалын эмчилгээ. Мэдрэл, судасны өвчнүүдэд үр дүнтэй.",
+              "fontSize": 14,
+              "fill": "#64748B"
+            },
+            {
+              "type": "button",
+              "id": "service-book-3",
+              "x": 24,
+              "y": 440,
+              "width": 332,
+              "height": 48,
+              "text": "Цаг авах",
+              "fill": "#10B981",
+              "color": "#FFFFFF",
+              "borderRadius": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "booking-section",
+      "name": "Booking Section",
+      "width": 1440,
+      "height": 700,
+      "fill": "#F8FAFC",
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "booking-title",
+          "x": 100,
+          "y": 80,
+          "width": 400,
+          "height": 50,
+          "text": "Цаг авах",
+          "fontSize": 42,
+          "fontWeight": "bold",
+          "fill": "#0F172A"
+        },
+        {
+          "type": "text",
+          "id": "booking-desc",
+          "x": 100,
+          "y": 140,
+          "width": 600,
+          "height": 30,
+          "text": "Доорх маягтыг бөглөж, таалагдсан үйлчилгээндээ цаг захиалаарай",
+          "fontSize": 18,
+          "fill": "#64748B"
+        },
+        {
+          "type": "form",
+          "id": "booking-form",
+          "x": 100,
+          "y": 200,
+          "width": 600,
+          "height": 450,
+          "children": [
+            {
+              "type": "input",
+              "id": "name-field",
+              "x": 0,
+              "y": 0,
+              "width": 600,
+              "height": 56,
+              "placeholder": "Таны нэр",
+              "borderRadius": 8,
+              "borderColor": "#E2E8F0"
+            },
+            {
+              "type": "input",
+              "id": "phone-field",
+              "x": 0,
+              "y": 80,
+              "width": 600,
+              "height": 56,
+              "placeholder": "Утасны дугаар",
+              "borderRadius": 8,
+              "borderColor": "#E2E8F0"
+            },
+            {
+              "type": "select",
+              "id": "service-select",
+              "x": 0,
+              "y": 160,
+              "width": 600,
+              "height": 56,
+              "placeholder": "Үйлчилгээ сонгох",
+              "options": ["Зүү тавих", "Массаж", "Бариа засал", "Уламжлалт эмчилгээ"],
+              "borderRadius": 8,
+              "borderColor": "#E2E8F0"
+            },
+            {
+              "type": "input",
+              "id": "date-field",
+              "x": 0,
+              "y": 240,
+              "width": 600,
+              "height": 56,
+              "placeholder": "Огноо сонгох",
+              "type": "date",
+              "borderRadius": 8,
+              "borderColor": "#E2E8F0"
+            },
+            {
+              "type": "textarea",
+              "id": "notes-field",
+              "x": 0,
+              "y": 320,
+              "width": 600,
+              "height": 80,
+              "placeholder": "Нэмэлт мэдээлэл",
+              "borderRadius": 8,
+              "borderColor": "#E2E8F0"
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "id": "submit-booking",
+          "x": 100,
+          "y": 650,
+          "width": 600,
+          "height": 56,
+          "text": "Цаг захиалах",
+          "fill": "#10B981",
+          "color": "#FFFFFF",
+          "borderRadius": 8,
+          "fontSize": 16,
+          "fontWeight": "600"
+        }
+      ]
+    }
+  ],
+  "styles": {
+    "colors": {
+      "primary": "#10B981",
+      "primaryDark": "#059669",
+      "secondary": "#0F172A",
+      "background": "#FFFFFF",
+      "surface": "#F8FAFC",
+      "text": "#0F172A",
+      "textSecondary": "#64748B",
+      "textMuted": "#94A3B8",
+      "border": "#E2E8F0"
+    },
+    "typography": {
+      "fontFamily": "Inter, system-ui, sans-serif",
+      "headingWeight": "700",
+      "bodyWeight": "400"
+    },
+    "spacing": {
+      "section": "120px",
+      "container": "1200px"
+    }
+  }
+}
